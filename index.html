@@ -7,28 +7,33 @@
     <title>Poem Generator</title>
   </head>
   <body>
-    <h1>Poems</h1>
-    <form>
-      <input
-        type="text"
-        placeholder="Please enter the subject of your poem"
-        required
-      />
-      <input type="submit" />
-    </form>
-    <div>The Poem Will Go Here</div>
-    <footer>
-      This AI Project was coded by
-      <a href="https://github.com/emilyyvonne">Emily Brisbin</a> is open-sourced
-      on
-      <a href="https://github.com/emilyyvonne/Poem-Generator" target="_blank"
-        >GitHub</a
-      >
-      and is hosted on
-      <a href="https://quiet-druid-409a5d.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <h1>Poems</h1>
+      <main>
+        <form>
+          <input
+            id="input"
+            type="text"
+            placeholder="Please enter the subject of your poem"
+            required
+          />
+          <input id="submit-button" type="submit" />
+        </form>
+        <div id="poem">The Poem Will Go Here</div>
+      </main>
+      <footer>
+        This AI Project was coded by
+        <a href="https://github.com/emilyyvonne">Emily Brisbin</a> is
+        open-sourced on
+        <a href="https://github.com/emilyyvonne/Poem-Generator" target="_blank"
+          >GitHub</a
+        >
+        and is hosted on
+        <a href="https://quiet-druid-409a5d.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
