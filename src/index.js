@@ -1,3 +1,6 @@
+let formElement = document.querySelector("#form");
+formElement.addEventListener("submit", generatePoem);
+
 function generatePoem(event) {
   event.preventDefault();
   let inputElement = document.querySelector("#user-input");
@@ -15,5 +18,3 @@ function displayPoem(response) {
     autoStart: true,
   });
 }
-let formElement = document.querySelector("#form");
-formElement.addEventListener("submit", generatePoem);
