@@ -1,7 +1,7 @@
 function generatePoem(event) {
   event.preventDefault();
 
-  new Typewriter("Poem", {
+  new Typewriter("#poem", {
     strings: "Roses are red, violets are blue",
     autoStart: true,
   });
