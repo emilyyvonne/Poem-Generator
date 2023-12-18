@@ -3,6 +3,7 @@ function generatePoem(event) {
 
   new Typewriter("Poem", {
     strings: "Roses are red, violets are blue",
+    autoStart: true,
   });
 }
 
