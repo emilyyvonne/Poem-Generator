@@ -12,7 +12,7 @@ function generatePoem(event) {
 
   let poemElement = document.querySelector("#poem");
   poemElement.classList.remove("hidden");
-  poemElement.innerHTML = `Generating Your Poem about ${inputElement.value}`;
+  poemElement.innerHTML = `Generating your poem about ${inputElement.value}...`;
   axios.get(apiURL).then(displayPoem);
 }
 function displayPoem(response) {
