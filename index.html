@@ -12,17 +12,20 @@
     <div class="container">
       <h1>AI Poem Generator</h1>
       <main>
-        <form id="form">
-          <input
-            class="input"
-            id="user-input"
-            type="text"
-            placeholder="Please enter the subject of your poem"
-            required
-          />
-          <input class="submit-button" type="submit" />
-        </form>
-        <div class="poem" id="poem">The Poem Will Go Here</div>
+        <div class="form-container">
+          <form id="form">
+            <input
+              class="input"
+              id="user-input"
+              type="text"
+              placeholder="Please enter the subject of your poem"
+              required
+            />
+            <input class="submit-button" type="submit" />
+          </form>
+          <div class="hint">i.e. flowers, winter, dogs, etc</div>
+        </div>
+        <div class="poem hidden" id="poem">The Poem Will Go Here</div>
       </main>
       <footer>
         This AI Project was coded by
